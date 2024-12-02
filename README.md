@@ -1,1 +1,0 @@
-Deep Reinforcement Learning methods for the game Gomoku.

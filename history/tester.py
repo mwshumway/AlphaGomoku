@@ -1,4 +1,4 @@
-from gomoku_simulator import GomokuSimulator
+from history.gomoku_simulator import GomokuSimulator
 import random
 
 
