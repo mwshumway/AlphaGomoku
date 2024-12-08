@@ -1,0 +1,16 @@
+# Configuration file for AlphaGomoku
+
+board_size: 6,
+win_len: 4,
+
+# Training configuration
+lr: 0.001,              # Reduce learning rate for stability
+n_playout: 200,         # Increase MCTS playouts for more accurate exploration
+c_puct: 5,              # Maintain the exploration-exploitation trade-off constant
+batch_size: 256,         # Increase batch size to improve training signal
+n_epochs: 10,           # Keep epochs lower to avoid overfitting with larger data
+
+n_learn_steps: 100,     # Increase to train for longer per iteration
+n_self_play: 100,       # Generate more self-play games for diverse data
+log_interval: 10,       # Increase logging interval to monitor progress
+replay_capacity: 20000  # Increase capacity to store more experiences
