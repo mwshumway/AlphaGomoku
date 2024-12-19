@@ -5,9 +5,9 @@ tests.py: Unit tests for AlphaGomoku
 """
 
 import pytest
-from final_project_gomoku.mcts import MCTS
+from mcts import MCTS
 from gomoku import GomokuEnv
-from final_project_gomoku.policy_value_network import PolicyValueNet
+from policy_value_network import PolicyValueNet
 
 def test_action_validity(mcts, env):
     action, _ = mcts.get_action(env)

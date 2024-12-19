@@ -2,8 +2,8 @@ import torch
 import torch.optim as optim
 import torch.nn.functional as F
 import numpy as np
-from gomoku import GomokuEnv
-from final_project_gomoku.mcts import MCTS
+from alphagomoku.gomoku import GomokuEnv
+from mcts import MCTS
 from policy_value_network import PolicyValueNet
 from utils import *
 import yaml
